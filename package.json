@@ -1,0 +1,17 @@
+{
+  "dependencies": {
+    "sass": "^1.54.9",
+    "typescript": "^4.8.3"
+  },
+  "name": "githubapp",
+  "version": "1.0.0",
+  "description": "FILTER PARA GITHUB",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "tsc-watch": "tsc ts/index.ts",
+    "sass-compiled":"sass --watch assets/sass/index.scss:assets/css/index.css"
+  },
+  "author": "Alexandre Cavalcante",
+  "license": "ISC"
+}
