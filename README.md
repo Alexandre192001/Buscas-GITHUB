@@ -1,1 +1,1 @@
-<h1>Projeto de buscas de usuários para treinar TypeScript -  utilizando API do GITHUB</h1>
+<h1> Buscas de usuários utilizando API do GITHUB</h1>
