@@ -1,13 +1,63 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>GitHub</title>
-  <script defer src="./assets/ts/index.js"></script>
+  <title>Buscas no GitHub</title>
+  <!-- === JS === -->
+  <script defer src="./dist/index.js"></script>
+  <!-- === CSS === -->
+  <link rel="stylesheet" href="./assets/css/index.css">
+  <!-- === BOOTSTRAP-ICONS === -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+  <!-- === BOOTSTRAP === -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
 </head>
+
 <body>
-  
+
+  <header class="sessao-heade">
+    <input class="user" type="text" placeholder="Pesquise por Perfis do GITHUB">
+    <button type="button"
+     class="btn btn-outline-info buscar"><i class="bi bi-search"></i></button>
+  </header>
+
+
+  <main class="sessao-main">
+
+    <div class="card-wrapper">
+
+        <div class="card-user">
+          <i class="bi bi-person-circle"></i>
+          <h1 class="login-user"></h1>
+        </div>
+
+        <div class="card-user">
+          <i class="bi bi-person-lines-fill"></i>
+          <h2 class="name-user"></h2>
+        </div>
+
+        <div class="card-user">
+          <i class="bi bi-person-badge-fill"></i>
+          <p class="bio-user"></p>
+        </div>
+
+        <div class="card-user">
+          <i class="bi bi-archive"></i>
+          <p class="repo-user"></p>
+        </div>
+
+        <div class="card-repo">
+          <h1>Repositório:</h1>
+        </div>
+      </div>
+  </main>
+
+
+
 </body>
+
 </html>

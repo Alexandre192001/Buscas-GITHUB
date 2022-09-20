@@ -3,10 +3,12 @@ interface GithubUserResponse {
   login: string;
   name: string;
   bio: string;
+  avatar_url:string;
   public_repos: number;
   repos_url: string;
   message?: "Não encontrado";
 }
+
 interface GithubRepoResponse {
   name: string;
   description: string;
@@ -14,6 +16,7 @@ interface GithubRepoResponse {
   stargazers_count: number;
 }
 const users: GithubUserResponse[] = [];
+
 async function fetchUser(userName: string) {
   const response = await fetch(`https://api.github.com/users/${userName}`);
   const user: GithubUserResponse = await response.json();
@@ -27,6 +30,8 @@ async function fetchUser(userName: string) {
     );
   }
 }
+
+
 async function ShowUser(userName: string) {
   const user = users.find((user) => user.login === userName);
   if (typeof user === "undefined") {
