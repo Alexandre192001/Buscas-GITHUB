@@ -88,3 +88,24 @@
     }
   }
 }
+
+
+@media(max-width:780px){
+  .card-wrapper{
+    flex-direction: column;
+    .card-user{
+      flex-direction: column;
+    }
+  }
+}
+
+
+
+@media(max-width:370px){
+  .sessao-heade{
+    flex-direction: column;
+    button,.user{
+      width: 90%;
+    }
+  }
+}

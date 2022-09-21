@@ -80,4 +80,21 @@
   background-color: rgba(0, 0, 0, 0.5019607843);
 }
 
+@media (max-width: 780px) {
+  .card-wrapper {
+    flex-direction: column;
+  }
+  .card-wrapper .card-user {
+    flex-direction: column;
+  }
+}
+@media (max-width: 370px) {
+  .sessao-heade {
+    flex-direction: column;
+  }
+  .sessao-heade button, .sessao-heade .user {
+    width: 90%;
+  }
+}
+
 /*# sourceMappingURL=index.css.map */
