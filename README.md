@@ -12,6 +12,6 @@
 <h2>⚜️Descrição⚜️</h2>
 <p>Projeto desenvolvido para pesquisar usuários da plataforma GITHUB, onde se coloca o nome no campo principal e ao fazer a busca, ele trás algumas informações sobre aquele usuário.</p>
 <hr>
-LINK: https://buscas-github-alexandre.netlify.app/
+Link: https://buscas-github-alexandre.netlify.app/
 <hr>
 
