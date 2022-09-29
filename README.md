@@ -1,6 +1,6 @@
 <h1> Buscas de usuários utilizando API do GITHUB</h1>
 <hr>
-<h2>Linguagens Utilizadas:</h2>
+<h2>Linguagens Utilizadas :</h2>
 
 <div style="display: inline_block">
   <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white"></img> 
