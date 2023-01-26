@@ -26,7 +26,7 @@
 <ul>
 <li>Abra o prompt do vscode;</li>
 <li>Escreva - git clone https://github.com/Alexandre192001/Buscas-GITHUB/</li>
-<li>cd calculadora</li>
+<li>cd buscas-github</li>
 <li>npm install</li>
 </ul>
 <hr>
