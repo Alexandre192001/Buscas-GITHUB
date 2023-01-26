@@ -1,6 +1,4 @@
 
-
-
 <h1>Buscas de usuários utilizando API do GITHUB</h1>
 <hr>
 <h2>Linguagens Utilizadas:</h2>
